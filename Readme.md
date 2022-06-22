@@ -22,7 +22,7 @@ In this project I;
     * Converted the two log files into 4 dimension and 1 fact table
     * Wrote these tables to S3
     
-By using the Star Schema (as defined below) this will allow the team at Sparkify to easily drill down by song, artist and user. They will be able to understand how user behaviour changes over time fairly easily - user, song, artists and time (our fact tables) can be investigated with reference to the songplays dimensional table. A big improvement on messy json!
+By using the Star Schema (as defined below) this will allow the team at Sparkify to easily drill down by song, artist and user. They will be able to understand how user behaviour changes over time fairly easily - user, song, artists and time (our dimension tables) can be investigated with reference to the songplays fact table. A big improvement on messy json!
     
 ## How to use
 
